@@ -5,6 +5,10 @@
                 About Me
             </div>
 
+
+            <!-- <div>
+                {{ t().name }}
+            </div> -->
           
 
             <div class="about_me_text white_text">
@@ -30,7 +34,12 @@
 </template>
 
 <script>
+// import {locales} from "../lang/locales";
 export default {
+    data: () => ({
+        lang: 'eng'
+    }),
+
 
     methods: {
         animation() {
@@ -46,9 +55,8 @@ export default {
                 text.classList.add('show_el')
                 text.classList.add('animate__animated')
                 text.classList.add('animate__zoomIn')
-                text.classList.add('animate__delay-1s')
             }
-        }
+        },
     },
 
     mounted() {

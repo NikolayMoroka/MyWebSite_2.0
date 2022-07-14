@@ -1,6 +1,6 @@
 <template>
     <div id="bottom_nav" class="d-flex item_center justify_space_between white_text">
-        <div class="logo">© N.Moroka</div>
+        <div class="logo">© M.Moroka</div>
         <div class="navigation d-flex item_center justify_space_between">
             <div class="link" v-for="a in nav_list" :key="a.index">
                 <a :href="a.path">

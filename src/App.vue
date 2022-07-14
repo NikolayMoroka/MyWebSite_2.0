@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <TopNavigatin/>
-    <MainPage/>
-    <AboutMe/>
-    <SpacerBlock/>
-    <TechnologyBlock/>
-    <ContactsBlock/>
+      <div class="main_page">
+        <TopNavigatin/>
+        <MainPage/>
+        <AboutMe/>
+        <SpacerBlock/>
+        <TechnologyBlock/>
+        <ContactsBlock/>
+      </div>
   </div>
 </template>
 
@@ -26,7 +28,7 @@ export default {
     AboutMe,
     TechnologyBlock,
     ContactsBlock
-  }
+  },
 }
 </script>
 

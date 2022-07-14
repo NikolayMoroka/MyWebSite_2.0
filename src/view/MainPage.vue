@@ -2,7 +2,7 @@
     <div id="main_page" class="d-flex item_center justify_center">
         <div class="main_title white_text d-flex">
             <div class="animate__animated animate__bounceInDown">Hello.</div>
-            <div class="animate__animated animate__bounceInDown animate__delay-1s">I am Nikolay Moroka.</div>
+            <div class="animate__animated animate__bounceInDown animate__delay-1s">I am Mykola Moroka.</div>
         </div>
 
         <!-- <div class="info white_text animate__animated animate__fadeIn animate__delay-2s">

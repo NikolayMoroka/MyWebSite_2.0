@@ -68,13 +68,13 @@ export default {
     .info {
         max-width: 355px;
         height: 355px;
-        font-family: 'Patrick Hand', cursive; 
+        width: 35%;
         margin-top: 10%;
     }
 
     .info_block {
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .link {

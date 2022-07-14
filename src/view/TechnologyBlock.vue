@@ -12,13 +12,15 @@
                     <div class="white_text tech d-flex justify_center item_center">
                         <div>
                             <div class="">
-                                <img class="logo" :src="technology[slide].logo" alt="">
+                                <img class="logo" :src="technology[slide].logo" alt="" id="image">
                             </div>
-                            <div class="name">
-                                {{ technology[slide].name }}
-                            </div>
-                            <div class="description">
-                                {{ technology[slide].description }}
+                            <div >
+                                <div class="name">
+                                    {{ technology[slide].name }}
+                                </div>
+                                <div class="description">
+                                    {{ technology[slide].description }}
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -136,6 +138,11 @@ export default {
                 front_btn.classList.remove('active_btn')
                 front_btn.classList.remove('active_btn_front')
             }
+        },
+
+        checkImage() {
+           const el = document.getElementById('image')
+           el.onload = console.log("yes")
         }
     },
 
@@ -173,10 +180,6 @@ export default {
 
 .logo {
     width: 30px;
-}
-
-.description {
-    
 }
 
 .btn_block {
