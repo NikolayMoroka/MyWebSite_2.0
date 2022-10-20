@@ -7,22 +7,26 @@
                         Contacts:
                     </div>
                     <div class="info_block">
-                        <span>Kharkiv, Ukraine </span>
+                        <i class="fa-sharp fa-solid fa-house mr"></i>
+                        <span>Bruges, Belgium </span>
                     </div>
 
                     <div class="info_block">
+                        <i class="fa-solid fa-envelope mr"></i>
                         <span>Email: </span>
-                        <span>nikolaymoroka@gmail.com</span>
+                        <span>mykola.moroka@gmail.com</span>
                     </div>
 
                     <div class="info_block">
+                        <i class="fa-brands fa-telegram mr"></i>
                         <span>Telegram: </span>
                         <span>@NikolayMoroka</span>
                     </div>
 
                     <div class="info_block">
+                        <i class="fa-brands fa-linkedin mr"></i>
                         <span>LinkedIn: </span>
-                        <span><a class="link" href="www.linkedin.com/in/nikolay-moroka-b467991a7">www.linkedin.com/in/nikolay-moroka-b467991a7</a></span>
+                        <span><a class="link" href="https://www.linkedin.com/in/mykola-moroka/">https://www.linkedin.com/in/mykola-moroka/</a></span>
                     </div>
                 </div>
             </div>
@@ -80,5 +84,9 @@ export default {
     .link {
         color: #000;
         text-decoration: underline #000;
+    }
+
+    .mr {
+        margin-right: 5px;
     }
 </style>

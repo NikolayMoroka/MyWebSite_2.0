@@ -12,9 +12,10 @@
                     <div class="white_text tech d-flex justify_center item_center">
                         <div>
                             <div class="">
-                                <img class="logo" :src="technology[slide].logo" alt="" id="image">
+                                <i class="logo" :class="technology[slide].className" id="image"></i>
+                                <!-- <img class="logo" :src="technology[slide].logo" alt="" id="image"> -->
                             </div>
-                            <div >
+                            <div class="">
                                 <div class="name">
                                     {{ technology[slide].name }}
                                 </div>
@@ -41,43 +42,43 @@ export default {
         technology_front: [
             {
                 name: 'HTML',
-                logo: require('@/assets/brands/html5-brands.svg')
+                className: 'fa-brands fa-html5'
             },
             {
                 name: 'CSS',
-                logo: require('@/assets/brands/css3-alt-brands.svg')
+                className: 'fa-brands fa-css3-alt'
             },
             {
                 name: 'JavaScript',
-                logo: require('@/assets/brands/js-brands.svg')
+                className: 'fa-brands fa-js'
             },
             {
                 name: 'VueJS',
-                logo: require('@/assets/brands/vuejs-brands.svg')
+                className: 'fa-brands fa-vuejs'
             },
         ],
 
         technology_back: [
             {
                 name: 'PHP',
-                logo: require('@/assets/brands/php-brands.svg')
+                className: 'fa-brands fa-php'
             },
             {
                 name: 'Laravel',
-                logo: require('@/assets/brands/laravel-brands.svg')
+                className: 'fa-brands fa-laravel'
             },
             {
                 name: 'Python',
-                logo: require('@/assets/brands/python-brands.svg')
+                className: 'fa-brands fa-python'            
             },
             {
                 name: 'NodeJS',
-                logo: require('@/assets/brands/node-brands.svg')
+                className: 'fa-brands fa-node'
             },
             {
                 name: 'Databases',
                 description: 'SQL, NoSQL, MongoDB',
-                logo: require('@/assets/brands/database-solid.svg')
+                className: 'fa-solid fa-database'
             },
         ]
     }),
@@ -176,10 +177,11 @@ export default {
 
 .name {
     font-size: 30px;
+    margin-top: 5px;
 }
 
 .logo {
-    width: 30px;
+    font-size: 2.5rem;
 }
 
 .btn_block {
